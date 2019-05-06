@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@livepeer/sdk": "^1.0.0-alpha.5",
+    "apollo-server-express": "^2.4.8",
     "babel-runtime": "^6.26.0",
     "bn": "^1.0.1",
     "graphql": "^14.0.2",
