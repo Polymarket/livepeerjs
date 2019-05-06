@@ -1,4 +1,4 @@
-require('babel-polyfill')
+// require('babel-polyfill')
 const express = require('express')
 // const graphqlHTTP = require('express-graphql')
 const { schema } = require('./main')
@@ -28,7 +28,7 @@ const serve = async () => {
 
   // Init the port to the server
   // httpServer.listen( () => {
-  httpServer.listen({ port: 8000 }, () => {
+  return httpServer.listen({ port: 8000 }, () => {
     console.log('Apollo Server on http://localhost:8000/graphql')
   })
 }
