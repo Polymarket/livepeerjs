@@ -5,7 +5,7 @@ RUN apk add --no-cache git
 # Create app directory
 WORKDIR /usr/src/
 
-RUN git clone https://github.com/TokenUnion/livepeerjs.git
+RUN git clone https://github.com/Polymarket/livepeerjs.git
 
 WORKDIR /usr/src/livepeerjs
 
